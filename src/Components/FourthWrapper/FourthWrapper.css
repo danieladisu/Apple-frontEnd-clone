@@ -1,0 +1,50 @@
+/* Fourth section */
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../images/Small/promo_wwdc23__b68ptht3mro2_small.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../images/Small/promo_ipad__fioegapg12qi_small.jpg");
+    /* background-color: #165ca9; */
+    background-position: bottom;
+    padding-top: 0px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+.links-wrapper.white li a {
+    color: #fff;
+}
+
+.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+    max-width: 380px;
+}
+.wwContainer{
+padding: 0;
+margin: 0;
+position: relative;
+top: 290px;
+
+
+}
+/*fourth section*/
+@media (min-width: 768px) {
+    .fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+        background-image: url("../images/large/promo_wwdc23__b68ptht3mro2_large.jpg");
+        margin: 10px 5px 5px 10px;
+    }
+
+    .fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+        background-image: url("../images/large/promo_ipad__fioegapg12qi_large.jpg");
+
+        margin: 10px 10px 5px 5px;
+    }
+
+    .title-wraper.bold {
+        font-size: 56px;
+    }
+}

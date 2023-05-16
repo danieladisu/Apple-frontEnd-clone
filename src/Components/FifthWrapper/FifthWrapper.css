@@ -1,0 +1,55 @@
+/*Fifth Section*/
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../images/Small/promo_mbp__ek7p477bkp6q_small.jpg");
+    background-color: #000;
+    padding-top: 15px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../images/Small/promo_homepod__f7jnolq94m2y_small.jpg");
+    background-color: #fbfbfd;
+    background-position: bottom;
+    padding-top: 15px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+.fifth-heghlight-wrapper .description-wraper {
+    max-width: 450px;
+    margin: 7px auto;
+}
+
+.watch-more-wrapper a {
+    text-decoration: none;
+    font-size: 0.85em;
+    color: #fff;
+}
+
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
+
+.tvshow-logo-wraper {
+    padding: 340px 0 0px;
+}
+
+@media (min-width: 768px) {
+
+    /*Fifth section*/
+    .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../images/large/promo_mbp__ek7p477bkp6q_large.jpg");
+
+        margin: 5px 5px 5px 10px;
+    }
+
+    .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../images/large/promo_homepod__f7jnolq94m2y_large.jpg");
+
+        margin: 5px 10px 5px 5px;
+    }
+}

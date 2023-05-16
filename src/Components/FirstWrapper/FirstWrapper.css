@@ -1,0 +1,49 @@
+/*First Section*/
+.first-hightlight-wrapper {
+    background-image: url("../images/Small/hero_iphone14pro_spring__9xo85pm6sbmm_small.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 25px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ipod-caption {
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-top: 310px;
+}
+
+.iphone14Pro {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+
+    /* First section */
+    .first-hightlight-wrapper {
+        background-image: url("../images/large/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg");
+        min-height: 692px;
+    }
+
+    .ipod-caption {
+        padding-top: 415px;
+    }
+
+    /*Alert section*/
+    .alert-text {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+}
+.title-wraper1 {
+color: white;
+}
